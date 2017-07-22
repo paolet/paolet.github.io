@@ -1,0 +1,26 @@
+.nav li {
+    display: inline-block;
+    margin: 10px;
+    padding: 30px 70px 10px;
+
+}
+
+.nav {
+    text-align: center;
+    font-family: eb+garamond;
+    
+}
+
+.homecontainer {
+    border: solid;
+    border-color: black;
+    display: flex;
+    
+}
+
+.mini {
+    border:solid;
+    border-color: black;
+    display: flex;
+ 
+}

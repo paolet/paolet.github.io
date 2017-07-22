@@ -1,0 +1,76 @@
+
+ body {
+ margin: auto;
+ font-family: quicksand;
+ width: 95%;
+}
+
+
+
+.city {
+    width: 80%;
+    margin: auto;
+
+  
+}
+
+
+.mini {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav {
+    text-align: center;
+    font-family: eb+garamond;
+    font-size: 20px;
+}
+
+ .nav li {
+    display: inline-block;
+    margin: 10px;
+    padding: 30px 70px 10px;
+
+}
+
+a {
+     text-decoration: none;
+}
+
+img {
+    width: 50%;
+}
+
+.top {
+    margin: auto;
+}
+
+.topimageseville {
+    background-position: center;
+    background-image: url("images/seville1.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: Quicksand;
+    color: rgba(255,255,255, 0.90);
+    align-items: center;
+    width: 100%;
+    height: 400px
+}
+
+.topimageseville {
+    background-position: center;
+    background-image: url("images/malaga.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: Quicksand;
+    color: rgba(255,255,255, 0.90);
+    align-items: center;
+    width: 100%;
+    height: 400px
+}
