@@ -5,27 +5,53 @@
  width: 95%;
 }
 
+/* The font does not display all characters properly */
+
+
+.sights {
+    text-align: center;
+}
+
+.sights li {
+    display: inline-block;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 10px;
+    padding: 30px 70px 10px;
+
+}
 
 
 .city {
-    width: 80%;
     margin: auto;
+    width: 75%;
+    padding-top: 40px;
 
-  
 }
 
 
 .mini {
-    
     display: flex;
-    justify-content: space-between;
+    padding-bottom: 50px;
 }
 
+
+.text {
+    width: 50%;
+    padding: 30px 10px 0px 15px;
+    
+    
+}
+
+/* a photo/background color from the <hr /> up would might be useful to break-up some of the white space. */
 
 .nav {
     text-align: center;
     font-family: eb+garamond;
     font-size: 20px;
+    font-weight: bold;
+
+
 }
 
  .nav li {
@@ -35,16 +61,18 @@
 
 }
 
+
+
+
 a {
      text-decoration: none;
 }
 
-img {
-    width: 50%;
-}
+
 
 .top {
     margin: auto;
+  
 }
 
 .topimageseville {
@@ -61,9 +89,23 @@ img {
     height: 400px
 }
 
-.topimageseville {
+.topimagemalaga {
     background-position: center;
     background-image: url("images/malaga.jpg");
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: Quicksand;
+    color: rgba(255,255,255, 0.90);
+    align-items: center;
+    width: 100%;
+    height: 400px
+}
+
+.topimagemadrid {
+    background-position: center;
+    background-image: url("images/madrid.jpg");
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;

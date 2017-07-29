@@ -10,9 +10,12 @@ body {
     text-align: center;
     font-family: eb+garamond;
     font-size: 20px;
+    font-weight: bold;
+/*should we add background image to fill out white space?*/
 }
 
-li {
+
+.nav li {
     display: inline-block;
     margin: 10px;
     padding: 30px 70px 10px;
@@ -21,45 +24,71 @@ li {
 
 .container {
     display: flex;
-    height:100vh;
- 
+    flex-direction: column;
+    margin: auto;
 }
 
 
-.mini {
+.cities {
     display: flex;
-    border: 1px solid blue;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
     align-items: center;
-    width: 34%;
-    justify-content:center;
-    
+    width:80%;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
 }
 
 img {
-    width: 65%;
+    width: 100%;
     height: 400%;
     display: flex;
-    align-items: center;
+    margin: auto;
     justify-content: space-around;
 
 }
 
+
 h1 {
     text-align: center;
-    font-size: 40px;
-    
+    font-size: 50px;
+    color: #ff0000;
+/* change font color */
 }
 
 
 .spainimage {
-    justify-content:center;
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 65%;
     height:400%;
     text-align: center;
 
 }
 
-.footer {
-    padding: 20px;
-    display: inline-block;
+
+#seville {
+   height: 30%;
+   color: #0000ff;
+   
+}
+
+#malaga {
+   height:30%;
+    color: #0000ff;
+    
+   
+}
+
+
+#madrid {
+   height: 30%;
+   color: #0000ff;
+   
 }
