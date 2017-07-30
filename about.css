@@ -1,0 +1,159 @@
+body {
+    width: 100%;
+    margin: auto;
+    min-width: 600px;
+    max-width: 1280px;
+    height: 100hv;
+    margin-bottom: 60px;
+}
+
+h1, h2, h3, h4, a {
+    font-family: "open sans";
+    text-align: center;
+}
+
+p h3 {
+    font-family: "Gentium Book Basic";
+}
+
+a { 
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(161, 206, 165, 0.5);
+    min-width: 160px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display:inline-block;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu {
+    width: 95%;
+    min-width: 600px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.left img {
+   width: 10%;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
+.container {
+    background-image: url("images/filmmaker2.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 760px;
+}
+
+#quote {
+    color: white;
+    font-size: 20px;
+    align-content: left;
+    padding-left: 140px;
+    padding-top: 50px;
+    width: 30%;
+    line-height: 1.5;
+}
+
+.bio1 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    min-width: 800px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+
+
+#biopic1 {
+    width: 50%;
+    align-items: center;
+    background-image: url("images/director.jpg");
+    border-radius: 20px;
+}
+
+.half {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+    margin: 30px;
+}
+
+.half p {
+    font-family: "open sans";
+    font-size: 20px;
+    line-height: 2;
+    text-align: center;
+    max-height: 400px;
+}
+
+.bio2 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    min-width: 800px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#biopic2 {
+    width: 50%;
+    align-items: center;
+    background-image: url("images/filmmakerDP.jpg");
+    border-radius: 20px;
+}
+
+#panda {
+    display: block;
+    width: 350px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 30px;
+}

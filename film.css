@@ -1,0 +1,233 @@
+body {
+    width: 100%;
+    margin: auto;
+    min-width: 600px;
+    max-width: 1280px;
+    height: 100hv;
+}
+
+h1, h2, h3, h4, a {
+    font-family: "open sans";
+}
+
+h4 {
+    padding-left: 10px;
+}
+
+p {
+    font-family: "Gentium Book Basic";
+}
+
+.menu {
+    width: 95%;
+    min-width: 600px;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.left img {
+   width: 10%;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(141, 141, 141, 0.50);
+    min-width: 160px;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display:inline-block;
+}
+
+.dropdown-content a {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 5px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.filmtitle h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 100px;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+.filmtitle img {
+    display: block;
+    margin: auto;
+    width: 20%;
+    margin-top: 340px;
+}
+
+.filmtitle {
+    margin: auto;
+}
+
+.containermare {
+    background-image: url("images/wreckbig.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 760px;
+}
+
+.containerrails {
+    background-image: url("images/rails.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 760px;
+}
+
+.containerhome {
+    background-image: url("images/houses.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 760px;
+}
+
+.containerrise {
+    background-image: url("images/protest.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 760px;
+}
+
+.containerlibris {
+    background-image: url("images/libris.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 760px;
+}
+
+
+.filmcard {
+    width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+li {
+    display: inline-block;
+    margin-top: 4px;
+}
+
+
+.credits {
+    text-align: center;
+    width: 90%;
+    font-family: sans-serif;
+    padding-right: 10px;
+}
+
+.creditsright {
+    display: flex;
+    flex-direction: column;
+}
+
+.creditsright li {
+    width: 250px;
+    text-align: right;
+}
+
+.creditsleft {
+    display: flex;
+    flex-direction: column;
+}
+
+.creditsleft li {
+    width: 260px;
+    text-align: left;
+}
+
+.names {
+   display: flex;
+}
+
+.postandcredits {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.watch {
+    text-align: center;
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    width: 30%;
+    padding-top: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.watch img {
+   margin: auto;
+   justify-content: space-around;
+}
+
+.awards {
+   background-image: url("images/awards.jpg");
+   height:100px;
+   margin-bottom: 30px;
+}
+
+#poster {
+    border-radius: 20px;
+}
+
+.press {
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+.press h5 {
+    margin-bottom: -10px;
+}
+
+.press p {
+    margin: -1px;
+}
